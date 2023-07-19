@@ -1,0 +1,22 @@
+/* shared styles */
+* {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* nav styles */
+.nav-bar {
+  width: 1920px;
+  height: 130px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.nav-icon-social {
+  width: 86.041px;
+  height: 40px;
+}
+
+.nav-icon-social {
+  width: 33.916px;
+  height: 24px;
+}
