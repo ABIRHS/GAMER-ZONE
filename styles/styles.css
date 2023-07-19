@@ -223,6 +223,83 @@ nav ul {
   right: 9rem;
 }
 
+/* career */
+
+.career-container {
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  width: 120rem;
+}
+
+.career-headline-text {
+  width: 26.6rem;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3.7rem;
+}
+
+.career-text-description {
+  width: 42.5rem;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+}
+
+.career-location {
+  display: flex;
+  gap: 6.06rem;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+}
+
+.btn-white {
+  padding: 21px 40px;
+  border: none;
+  border-radius: 48px;
+  color: #ff42a5;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  background: white;
+}
+
+/* genre section */
+
+.genre-section {
+  width: 120rem;
+  height: 427px;
+  background: red;
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+  align-items: center;
+}
+
+.genre-first-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+.genre-second-row {
+  padding-top: 1.6rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.game-genre {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 15.1rem;
+  height: 5rem;
+  border-radius: 3.1rem;
+  background: #fff;
+  gap: 1rem;
+  padding-right: 1.2rem;
+}
+
 /* media queries */
 /* media queries */
 /* media queries */
