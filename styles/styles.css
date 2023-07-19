@@ -161,6 +161,10 @@ nav ul {
   padding-bottom: 2.5rem;
 }
 
+.btn-primary {
+  display: flex;
+}
+
 .btn-primary-second {
   color: #fff;
   font-size: 1.2rem;
@@ -198,11 +202,11 @@ nav ul {
     flex-direction: column-reverse;
   }
 
-  .head-section-img > img {
+  .head-section-text {
     width: 100%;
   }
 
-  .head-section-text {
+  .head-section-img > img {
     width: 100%;
   }
 
