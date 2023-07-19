@@ -3,20 +3,116 @@
   font-family: "Work Sans", sans-serif;
 }
 
-/* nav styles */
+/* nav styles: START */
+/* nav styles: START */
+/* nav styles: START */
 .nav-bar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   width: 1920px;
   height: 130px;
   background: #fff;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
-.nav-icon-social {
-  width: 86.041px;
-  height: 40px;
+.right-side-nav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
 }
 
-.nav-icon-social {
+.nav-title {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-title > img {
+  width: 86.041px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.nav-header-text {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.nav-social {
+  display: flex;
+  align-items: center;
+  width: 16.37rem;
+  height: 3.56rem;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+}
+
+nav ul {
+  list-style: none;
+}
+
+.nav-information {
+  display: flex;
+}
+
+.nav-information ul {
+  display: flex;
+}
+
+.nav-about {
+  gap: 32px;
+}
+
+.follow-social {
+  margin-right: 24px;
+}
+
+.nav-icon-youtube {
   width: 33.916px;
   height: 24px;
+  margin-right: 16px;
+}
+
+.nav-icon-tiktok {
+  width: 24px;
+  height: 24px;
+}
+
+/* nav styles: END*/
+/* nav styles: END*/
+/* nav styles: END*/
+
+/*  */
+/*  */
+/*  */
+
+/* media queries */
+/* media queries */
+/* media queries */
+
+/* mobile devices */
+/* mobile devices */
+/* mobile devices */
+@media screen and (max-width: 576px) {
+  .nav-bar,
+  .right-side-nav,
+  .nav-about {
+    flex-direction: column;
+  }
+
+  .nav-bar {
+    width: auto;
+    height: auto;
+  }
+}
+
+.nav-about {
+  padding-right: 40px;
+}
+
+/* tablet devices */
+/* tablet devices */
+/* tablet devices */
+@media screen and (min-width: 576px) and (max-width: 992px) {
 }
